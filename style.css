@@ -1,0 +1,7 @@
+:root { --sand: #f4e7c5; --sea: #1b6ca8; --ink: #1d1d1f; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, serif; background: var(--sand); color: var(--ink); }
+nav { display: flex; gap: 1.5rem; padding: 1rem 2rem; background: var(--sea); }
+nav a { color: #fff; text-decoration: none; }
+header { padding: 4rem 2rem; text-align: center; }
+footer { padding: 2rem; text-align: center; font-size: .85rem; }
