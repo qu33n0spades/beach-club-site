@@ -5,3 +5,6 @@ nav { display: flex; gap: 1.5rem; padding: 1rem 2rem; background: var(--sea); }
 nav a { color: #fff; text-decoration: none; }
 header { padding: 4rem 2rem; text-align: center; }
 footer { padding: 2rem; text-align: center; font-size: .85rem; }
+#gallery { padding: 2rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+.tile { background: #fff; padding: 3rem 1rem; text-align: center; border-radius: 6px; }
